@@ -33,3 +33,26 @@
 button#borrar {
     width: 242px;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#copiarNumeros {
+  margin-top: 20px;
+}
+
+#numerosCopiados {
+  margin-top: 20px;
+  font-size: 20px;
+}
