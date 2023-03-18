@@ -23,10 +23,25 @@ Implementación de una calculadora básica en HTML, CSS y JavaScript. Debe inclu
 
 ## Pasos
 ### 1. Formulario HTML con CSS
-Hacer un formulario HTML con dos campos numéricos y un botón de muestra. Dar con CSS el formato necesario.
-En este paso no es necesario dar una acción al formulario ni incluir código JavaScript.
+- Hacer un formulario HTML con dos campos numéricos y un botón de muestra. Dar con CSS el formato necesario.
+- En este paso no es necesario dar una acción al formulario ni incluir código JavaScript.
 
 ![Paso 1](paso1.png)
 
-## Fuentes de información
+### 2. Botón para copiar los números
+- Completar un archivo .js con una función que acceda a los números de los campos del formulario (propiedad "value" del elemento "input") y los copie más abajo en un contenedor
+- Esta función debe ejecutarse al presionar el botón
 
+![Paso 2](paso2.png)
+
+### 3. Botones con +, -, * y /
+- Eliminar el botón del paso 2
+- Crear 4 botones con las operaciones matemáticas básicas +, -, * y /
+- Implementar cada operación con una función y asociarla a cada botón
+- El resultado debe mostrarse más abajo en un contenedor
+- Debe tenerse en cuenta que no es posible dividir por cero
+
+![Paso 3](paso3.png)
+
+## Fuentes de información
+Material del curso de Argentina Programa
